@@ -1,0 +1,287 @@
+<!DOCTYPE html><!--21961102정지은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <style>
+      .body{
+        padding : 0 150px;
+      }
+      .nav_logo{
+        padding:20px 0px;
+        float:left;
+      }
+      .nav_menu{
+        font-family: 'Titillium Web', sans-serif;
+        padding:10px 0px 10px 340px;
+        float:right;
+      }
+      .nav_menu li{
+        display:inline-block;
+        padding : 0 20px;
+      }
+      .nav_log{
+        margin : 0 20px;
+        border: solid 3px #ff604a;
+        background-color: #ff604a;
+        color: white;
+        border-radius:100px;
+      }
+      .nav_log li {
+        display: inline-block;
+      }
+      a{
+        text-decoration:none;
+        color: black;
+      }
+      a:visited{
+        color: black;
+        text-decoration:none;
+      }
+      a:hover{
+        color: #eeeeee;
+        font-weight:bold;
+        text-decoration:none;
+      }
+      .nav_log a{
+        color: #fffbee;
+        text-decoration:none;
+      }
+      .nav_log a:visited{
+        color: #fffbee;
+        text-decoration:none;
+      }
+      .nav_log a:hover{
+        color: #fffbee;
+        font-weight:bold;
+        text-decoration:none;
+      }
+      .line{
+        border: solid 1px white;
+        margin: 0px;
+        padding:0px;
+      }
+      .work_contents li{
+        display: inline;
+      }
+      .work_contents img{
+        padding : 5px;
+      }
+      .work_nv li{
+        display: inline;
+        padding: 40px;
+      }
+      .color{
+        background-color:white;
+        padding :30px 15px;
+      }
+      .pub_nv li{
+        display: inline;
+        padding: 40px;
+      }
+      .line2{
+        border:solid 1px #d8d3c5;
+      }
+      h1{
+        font-size: 60px;
+        padding:0 0 0 80px;
+      }
+      .text{
+        font-size: 25px;
+        padding :10px 80px;
+        line-height: 150%;
+      }
+      span{
+        float:right;
+        font-size: 20px;
+        color:  #ff604a;
+      }
+      .w7{
+        background-image:url(./img/w7.jpg);
+        display: block;
+        margin: 20px 140px;
+        width:1000px;
+        height:250px;
+        border:solid 1px white;
+        border-radius: 8px;
+        box-shadow:0px 4px 12px 1px #d8d8d8;
+      }
+      .w6{
+        background-image:url(./img/w6.jpg);
+        display: block;
+        margin: 20px 140px;
+        width:1000px;
+        height:250px;
+        border:solid 1px white;
+        border-radius: 8px;
+        box-shadow:0px 4px 12px 1px #d8d8d8;
+      }
+      .test li{
+        display: block;
+      }
+      .test b{
+          float:right;
+          font-size: 20px;
+      }
+      .test p{
+        border:solid 1px #ff604a;
+        margin:100px 15px 50px 800px;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+        background-color: #ff604a;
+        width: 120px;
+        height: 40px;
+        line-height: 250%;
+      }
+      .main_img{
+        background: linear-gradient(to bottom, #fff, #ff604a, #fff);
+        height: 480px;
+      }
+      @keyframes ball {
+      0% {
+          top:0px;
+      }
+      95% {
+          width: 100px;
+      }
+      to {
+          top:300px;
+          width:115px;
+          height:80px
+      } }
+      .ball{
+        position:relative;
+        left: 300px;
+        top:0;
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        background:#ff604a;
+        animation:ball 0.8s ease-in Infinite Alternate;
+        box-shadow: 2px 2px 10px 1px red;
+      }
+      .ball2{
+        position:relative;
+        left: 1200px;
+        top:0;
+        width:60px;
+        height:60px;
+        border-radius:50%;
+        background:#ff604a;
+        animation:ball 0.9s ease-in Infinite Alternate;
+        box-shadow: 2px 2px 10px 1px red;
+      }
+
+      .animation{
+        animation-duration: 5s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        font-size: 20em;
+        margin-top: -100px;
+        font-weight:bold;
+        letter-spacing: -1.5px;
+        color:#fff;
+        font-family: noto sans-serif;
+      }
+      @keyframes slidein {
+      from {
+          margin-left: 100%;
+          width: 300%
+        }
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+        }
+
+    </style>
+    </head>
+    <body>
+      <div class="body">
+        <div class="nav_logo">
+          <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+
+        <ul class="nav_menu">
+          <li><a href="work.html">Work</li>
+          <li><a href="publishing.html">Publishing</li>
+          <li><a href="about.html">About</li>
+          <li><a href="contact.html">Contact</li>
+          <li class="nav_log"><a href="login.html">Login</a></li>
+        </ul>
+      <br><br><br><br><br>
+      <hr class="line">
+      <div class="line2"></div>
+      <br><br><br>
+    </div>
+    <div class="main_img">
+      <div class="ball"></div>
+      <div class="ball2"></div>
+      <p class="animation">Creative</p>
+    </div>
+    <div class="body">
+      <h1>Hello:)</h1>
+      <p class="text">안녕하세요. 창의적인 생각을 가진 기획자 정지은입니다. <br>
+        이 곳에서 통통튀는
+      저의 작업물들을 확인하실 수 있습니다. </p>
+      <br><br>
+      <center><ul class="work_nv">
+        <li><a href="work.html"><b>Work</b></li>
+      </ul></center>
+      <div class="color">
+        <ul class="work_contents">
+          <li><a href="unity.html"><img src="./img/unity_thumbnail.jpg"
+            onmouseover="this.src='./img/unity_thumbnail2.jpg'"
+            onmouseout="this.src='./img/unity_thumbnail.jpg'" ></a></li>
+
+          <li><a href="card.html"><img src="./img/card_thumbnail.jpg"
+            onmouseover="this.src='./img/card_thumbnail2.png'"
+            onmouseout="this.src='./img/card_thumbnail.jpg'"></a></li>
+
+          <li><a href="delivery.html"><img src="./img/delivery_thumbnail.jpg"
+            onmouseover="this.src='./img/delivery_thumbnail2.jpg'"
+            onmouseout="this.src='img/delivery_thumbnail.jpg'"></a></li>
+
+          <li><a href="google.html"><img src="./img/google_thumbnail.jpg"
+            onmouseover="this.src='./img/google_thumbnail2.jpg'"
+            onmouseout="this.src='./img/google_thumbnail.jpg'"></a></li>
+
+          <li> <span><a href="work.html"><b>more ></b></a></span> </li>
+        </ul>
+      </div>
+      <br><br><br><br>
+      <center>
+        <ul class="pub_nv">
+          <li><a href="publishing.html"><b>Publishing</b></li>
+        </ul></center>
+      <div class="color">
+        <ul class="test">
+          <li class="w7"><a href="./7w/menu1.html" target="blank"><p>자세히 보기 ></p></li>
+          <li class="w6"><a href="./6w/wedding.html" target="blank"><p>자세히 보기 ></p></li>
+
+          <li><span><a href="publishing.html"><b>more ></b></a></span> </li>
+        </ul>
+      </div>
+      <br><br>
+      <!--footer-->
+      <div class="line2"></div>
+        <br>
+        <p>Copyright ⓒ 2020. All Rights Reserved.</p>
+        <br>
+      </div>
+    </div>
+
+
+
+
+
+
+  </body>
+</html>

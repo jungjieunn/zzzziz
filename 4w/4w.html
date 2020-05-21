@@ -1,0 +1,266 @@
+<!DOCTYPE html><!--21961102 정지은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>4week</title>
+    <style>
+      .weather{
+        border-style : double;
+        border-collapse : collapse;
+        padding:8px;
+
+      }
+      .eng{
+        border-style : dotted;
+        border-collapse : collapse;
+        padding : 8px;
+      }
+      .form{
+        border-style : hidden;
+        border-collapse : collapse;
+        padding:10px;
+      }
+      .timetable{
+        border-style : ridge;
+        border-collapse : collapse;
+        padding:8px;
+        border-width:5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>오늘의 날씨</h3>
+      <table class="weather">
+        <tr class="weather">
+          <th class="weather">지역</th>
+          <th class="weather">현재기온</th>
+          <th class="weather" colspan="2">불쾌지수/습도</th>
+          <th class="weather">풍속(m/s)</th>
+        </tr>
+        <tr class="weather">
+          <td class="weather" rowspan="2">서울/경기</td>
+          <td class="weather">23</td>
+          <td class="weather">60</td>
+          <td class="weather">80</td>
+          <td class="weather">4.7</td>
+        </tr>
+        <tr class="weather">
+          <td class="weather">20</td>
+          <td class="weather">60</td>
+          <td class="weather">80</td>
+          <td class="weather">5.0</td>
+        </tr>
+        <tr class="weather">
+          <td class="weather">제주도</td>
+          <td class="weather">21</td>
+          <td class="weather">65</td>
+          <td class="weather">85</td>
+          <td class="weather">3.6</td>
+        </tr>
+      </table>
+
+      <br><br>
+
+      <h3>★영어회화 수강 안내</h3>
+      <table class="eng">
+      <tr class="eng">
+        <th class="eng">수강 레벨</th>
+        <th class="eng">코스A</th>
+        <th class="eng">코스B</th>
+        <th class="eng">수강기간</th>
+        <th class="eng">세부내용보기</th>
+      </tr>
+      <tr>
+        <td class="eng">레벨1</td>
+        <td class="eng">Side by Side 1</td>
+        <td class="eng">American Headway 1</td>
+        <td class="eng">1개월</td>
+        <td class="eng"><img src="help.gif"></td>
+      </tr>
+      <tr>
+        <td class="eng">레벨2</td>
+        <td class="eng">Side by Side 2</td>
+        <td class="eng">American Headway 2</td>
+        <td class="eng">1개월</td>
+        <td class="eng"><img src="help.gif"></td>
+      </tr>
+      <tr>
+        <td class="eng">레벨3</td>
+        <td class="eng">Side by Side 3</td>
+        <td class="eng">American Headway 3</td>
+        <td class="eng">1개월</td>
+        <td class="eng"><img src="help.gif"></td>
+      </tr>
+      <tr>
+        <td class="eng">레벨4</td>
+        <td class="eng" colspan="2"> Exploring English 1</td>
+        <td class="eng">2개월</td>
+        <td class="eng"><img src="help.gif"></td>
+      </tr>
+      <tr>
+        <td class="eng">레벨5</td>
+        <td class="eng" colspan="2"> Exploring English 2</td>
+        <td class="eng">2개월</td>
+        <td class="eng"><img src="help.gif"></td>
+      </tr>
+    </table>
+    <br><br>
+    <h3>회원 가입 양식</h3>
+    <form>
+      <table class="form">
+        <tr class="form">
+          <td class="form">- 이름</td><td class="form"><input type="text"></td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 나이</td><td class="form"><input type="text"></td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 비밀번호</td>
+          <td class="form"><input type="password"></td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 개인정보</td>
+          <td class="form">
+            <input type="radio" name="info" checked>공개
+            <input type="radio" name="info">비공개
+          </td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 취미</td>
+          <td class="form">
+            <input type="checkbox" name="hobby1">등산
+            <input type="checkbox" name="hobby2" checked>독서
+            <input type="checkbox" name="hobby3">영화감상
+            <input type="checkbox" name="hobby4">음악감상
+          </td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 이메일</td>
+          <td class="form"><input type="text">@
+            <select>
+             <option>선택</option>
+             <option>naver.com</option>
+             <option>hanmail.net</option>
+             <option>gmail.com</option>
+             <option>직접입력</option>
+           </select></td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 자기소개</td>
+          <td class="form"><textarea rows="5" cols="80"></textarea></td>
+        </tr>
+        <tr class="form">
+          <td class="form"></td>
+          <td class="form">
+            <button type="button">검색</button>
+            <button type="submit">확인</button>
+            <button type="reset">다시 쓰기</button>
+          </td>
+        </tr>
+        <tr class="form">
+          <td class="form">- 파일첨부</td>
+          <td class="form"><input type="file"> *2MB까지 가능<br></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="color"><br></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="datetime-local"></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="month"></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="number"></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="range"></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="time"></td>
+        </tr>
+        <tr class="form">
+            <td class="form"><input type="week"></td>
+        </tr>
+      </table>
+    </form>
+
+    <br><br>
+
+    <h3>시간표</h3>
+    <table class="timetable">
+      <tr class="timetable">
+        <th class="timetable"></th>
+        <th class="timetable">월</th>
+        <th class="timetable">화</th>
+        <th class="timetable">수</th>
+        <th class="timetable">목</th>
+        <th class="timetable">금</th>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">9</td>
+        <td class="timetable"></td>
+        <td class="timetable" rowspan="4"><center>프로젝트<br>스튜디오1</center>
+          <img src="sticker5.png" width="100" height="100"></td>
+        <td class="timetable" rowspan="4"><center>프로젝트<br>기획</center>
+          <img src="sticker1.png" width="100" height="100"></td>
+        <td class="timetable" rowspan="12"><center>공강!</center><br>
+          <img src="sticker7.png" width="100" height="100"></td>
+        <td class="timetable"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">10</td>
+        <td class="timetable" rowspan="2" class="form"><center>빅데이터로<br>보는 세상</center>
+          <img src="sticker2.png" width="100" height="100"></td>
+        <td class="timetable"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">11</td>
+        <td class="timetable" rowspan="2"><center>창작워크샵</center>
+          <img src="sticker3.png" width="100" height="100"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">12</td>
+        <td class="timetable"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">1</td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">2</td>
+        <td class="timetable" rowspan="4" class="form"><center>미디어프로토<br>타이핑</center>
+          <img src="sticker4.png" width="100" height="100"></td>
+        <td class="timetable"></td>
+        <td></td>
+        <td class="timetable" rowspan="4"><center>웹표준<br>퍼블리싱</center>
+          <img src="sticker6.png" width="100" height="100"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">3</td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">4</td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+      </tr>
+      <tr>
+        <td class="timetable">5</td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+      </tr>
+      <tr class="timetable">
+        <td class="timetable">6</td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+        <td class="timetable"></td>
+      </tr>
+    </table>
+  </body>
+</html>

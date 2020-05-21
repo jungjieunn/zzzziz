@@ -1,0 +1,117 @@
+<!DOCTYPE html><!--21961102 정지은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>7주차 실습2</title>
+    <style>
+      #menu{
+        font-family: 'Nanum Myeongjo', serif;
+        width:710px;
+        padding:10px 20px;
+        color: #cc9658;
+      }
+      #menu li:link{
+        color:#cc9658;
+        text-decoration:none;
+      }
+      #menu li:visited{
+        color:#cc9658;
+        text-decoration:none;
+      }
+      #menu li:hover{
+        color:#cc9658;
+        font-weight:bold;
+        text-decoration:none;
+      }
+      #menu li {
+        display:inline;
+        color : #cc9658;
+      }
+      #menu a{
+        text-decoration: none;
+      }
+
+      #visit_info{
+        margin:30px 0px 5px 0px;
+      }
+
+      .line{
+        border: solid 1px #cc9658;
+        width: 750px;
+        margin: 0px;
+        padding:0px;
+      }
+      .contents_h3{
+        margin:20px 0 0 10px;
+      }
+      #contents_menu{
+        width:500px;
+        padding:10px;
+        margin:20px 0 0 40p;
+        background-color #eeeeee;
+        border:solid 1px #aaaaaa;
+        text-align:center;
+      }
+      #contents_menu li {
+        display:inline;
+      }
+      li{
+        matgin-top:2px;
+      }
+      .contents_a{
+        display:block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul id="menu">
+      <li><span class="logo"><a href="menu1.html">
+        <img src="img/logo2.png" width="170px" height="50px"></a></span></li>
+      <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+      <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+      <li><a href="menu1.html"> 관람안내&nbsp|</a></li>
+      <li><a href="menu2.html">행사 안내&nbsp|</a></li>
+      <li><a href="menu3.html">&nbsp오시는 길&nbsp|</a></li>
+      <li><a href="menu4.html">&nbsp실습1&nbsp|</a></li>
+      <li><a href="menu5.html">&nbsp실습2&nbsp|</a></li>
+      <li><a href="menu6.html">실습3</a></li>
+    </ul>
+
+
+    <h1 id="visit_info">+ 실습2</h1>
+    <div class="line"></div>
+
+    <!--실습2-->
+
+    <h2 class="contents_h2">1. 인라인과 블록</h2>
+    <h3 class="contents_h3">(1) 인라인 요소</h3>
+    <span>텍스트1</span>
+    <span>텍스트2</span>
+    <span>텍스트3</span>
+    <img src="img/image1.png">
+    <img src="img/image2.jpeg">
+
+    <h3 class="contents2">(2) 블록 요소</h3>
+    <p>이것은 단락입니다.</p>
+    <div>박스1</div>
+    <div>박스2</div>
+
+    <!--display 속성 : inline-->
+    <ul id="contents_menu">
+      <li>회사소개 |</li>
+      <li>제품소개 |</li>
+      <li>공지사항 |</li>
+      <li>업무제휴 |</li>
+      <li>고객센터</li>
+    </ul>
+
+    <!--display 속성 : block-->
+    <p>수직 방향 메뉴</p>
+    <a class="contents_a" href="http://naver.com" target="_blank">네이버</a>
+    <a class="contents_a" href="http://daum.net" target="_blank">다음</a>
+    <a class="contents_a" href="http://google.com" target="_blank">구글</a>
+
+
+  </body>
+</html>
